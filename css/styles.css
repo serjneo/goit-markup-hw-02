@@ -56,28 +56,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
-.nav-link:hover,
-.nav-link:focus {
+.head-item .link:hover,
+.head-item .link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.mail-link,
-.tel-link {
+.tel-link,
+.mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-color);
-}
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-color);
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: var(--accent-color);
 }
 /*END SITE NAV*/
 
@@ -91,17 +83,17 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--background-color);
+  text-transform: uppercase;
 }
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
-.hero-btn:hover,
-.hero-btn:focus
 /*END HERO*/
 
 /*FEATURES*/
 .feature-title {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -162,6 +154,9 @@ body {
 .footer-adress:focus {
   color: var(--background-color);
 }
+.footer-adress.white {
+  color: var(--background-color);
+}
 /*END FOOTER*/
 
 /*PORTFOLIO*/
@@ -173,6 +168,10 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+.modal-btn.blue {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
